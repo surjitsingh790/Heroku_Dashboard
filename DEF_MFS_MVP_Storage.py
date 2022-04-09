@@ -14,7 +14,7 @@ except Exception as e:
     print("Error : {} ".format(e))
 
 storage_client = storage.Client.from_service_account_json(
-            'C:\\Users\\Raj\\PycharmProjects\\Sensitive_Info\\DEF-MFS-MVP-Configuration.json')
+            'C:\\Users\\surji\\Downloads\\College\\Sem-4\\Stock_Prediction\\DEF-MFS-MVP-Configuration.json')
 
 bucket = storage_client.get_bucket('bucket_stock')
 df_list = []
